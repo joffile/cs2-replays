@@ -1,1 +1,14 @@
-
+{
+  "name": "cs2-replays",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@laihoe/demoparser2": "^0.41.3",
+    "adm-zip": "^0.5.16",
+    "unbzip2-stream": "^1.4.3"
+  }
+}
